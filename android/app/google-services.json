@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016528305174",
+    "project_id": "moviology-3e50d",
+    "storage_bucket": "moviology-3e50d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016528305174:android:e8c07a7ab356fe89524937",
+        "android_client_info": {
+          "package_name": "com.example.moviology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016528305174-4fd4pdcoduuolt9964gqi2ce7h73srao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBClz-qnrY8FghMt_hbZN1dU73ECO2h_WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016528305174-4fd4pdcoduuolt9964gqi2ce7h73srao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

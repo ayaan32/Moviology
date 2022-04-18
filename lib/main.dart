@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:moviology/screens/homepage.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
 }
 
