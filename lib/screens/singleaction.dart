@@ -16,11 +16,18 @@ class SingleAction extends StatelessWidget {
           Image.network(book.urlimage,
               width: double.infinity, height: 250, fit: BoxFit.cover),
           SizedBox(height: 20.0),
+          Center(
+              child: Text('Description',
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600))),
           Padding(
             padding: const EdgeInsets.fromLTRB(30, 30, 10, 10),
             child: Row(
               children: [
-                Text(book.description),
+                Flexible(
+                    child: Text(
+                  book.description,
+                  style: TextStyle(fontSize: 18),
+                )),
               ],
             ),
           ),
